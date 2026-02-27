@@ -1,0 +1,164 @@
+body {
+
+    background: url("universe.jpg") center/cover no-repeat;
+    color: white;
+}
+
+/* Navigation buttons */
+button {
+    position: fixed;
+    top: 20px;
+    padding: 8px 14px;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+#menu{ left:20px;}
+.home { left: 20px; }
+.gala-btn { left: 150px; }
+.info-btn { left: 300px; }
+.sol-btn { left: 450px; }
+.q-btn { left: 600px; }
+
+/* btn menu */
+#btnMenu {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+
+}
+
+
+#menu {
+    width: 50px;
+    height: 50px;
+
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+#menubox {
+padding: 15px;
+    display: none;
+    margin-top: 40px;
+    width: 200px;
+    background: rgba(0,0,0,0.7);
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#menubox button {
+    width: 100%;
+    margin: 5px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+/* Profile Menu */
+/* Small top profile photo */
+#profilePic{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Full screen overlay */
+#profilePopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Center popup box */
+.popupBox{
+    width: 260px;
+    padding: 25px;
+    background: rgba(0,0,0,0.9);
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Center profile image */
+#popupProfilePic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Popup buttons */
+.popupBox button{
+    width: 100%;
+    margin: 6px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+} 
+
+
+
+.content {
+    
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+/* Headings */
+h1 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #E6F1FF;
+}
+
+h2 {
+    color: #FF4C4C;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+
+h4 {
+    margin: 0 50px 20px 50px;
+    text-align: left;
+    line-height: 1.8;
+    color: #C9D1D9;
+}
+
+}

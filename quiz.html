@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Universe Quiz</title>
+<link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+
+<!-- ------------------- MENU ------------------- -->
+<div id="btnMenu">
+<button class="menu">Menu ☰</button>
+<div id="menubox">
+<button class="home">Home</button>
+<button class="gala-btn">Galaxies</button>
+<button class="info-btn">Information</button>
+<button class="sol-btn">Solar System</button>
+<button class="ear">The Earth</button>
+</div>
+</div>
+
+<!-- ------------------- PROFILE ------------------- -->
+<img id="profilePic" src="userPhoto.jpg">
+
+<div id="profilePopup">
+<div class="popupBox">
+<img id="popupProfilePic" src="userPhoto.jpg">
+<div id="menuUsername"></div>
+<button id="deletePhotoBtn">Delete Photo</button>
+<button id="changePhotoBtn">Change Photo</button>
+<button id="logoutBtn">Logout</button>
+<button id="signUpBtn">Sign Up</button>
+<button id="loginBtn">Log In</button>
+</div>
+</div>
+
+<input type="file" id="photoInput" style="display:none;">
+
+<!-- ------------------- QUIZ ------------------- -->
+<div class="quiz-container">
+<h1>🌍 Universe Quiz 🌌</h1>
+<div id="quiz"></div>
+<div id="result"></div>
+</div>
+
+<script src="Quiz.js"></script>
+
+</body>
+</html>
